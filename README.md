@@ -1,6 +1,6 @@
 # aws-web-console-service-shortkeys-userscript
 
-Add `/` shortcut to expand service menu, and `Esc` to close it.
+In AWS Management Console (Web), this userscript adds ability to use `/` shortcut expanding service menu, and `Esc` key to close it.
 
 ## Installation
 
