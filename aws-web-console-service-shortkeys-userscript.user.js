@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AWS Web Console Service Shortkeys
 // @namespace    https://wiki.gslin.org/wiki/AWS_Web_Console_Service_Shortkeys
-// @version      0.20190926.0
+// @version      0.20200122.0
 // @description  Use '/' and Escape to switch services in AWS Web Console
 // @author       You
 // @match        https://console.aws.amazon.com/*
@@ -17,7 +17,7 @@
         let aEl = document.activeElement;
 
         // '/' key in non-input field.
-        if ('input' !== aEl.tagName.toLowerCase() && 'textare' !== aEl.tagName.toLowerCase() && '/' === event.key) {
+        if ('input' !== aEl.tagName.toLowerCase() && 'textarea' !== aEl.tagName.toLowerCase() && '/' === event.key) {
             document.getElementById('nav-servicesMenu').click();
             return;
         }
