@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         AWS Web Console Service Shortkeys
+// @name         [DEPRECATED] AWS Web Console Service Shortkeys
 // @namespace    https://wiki.gslin.org/wiki/AWS_Web_Console_Service_Shortkeys
-// @version      0.20201127.1
+// @version      0.20201213.0
 // @description  Use '/' and Escape to switch services in AWS Web Console
 // @author       You
 // @match        https://console.aws.amazon.com/*

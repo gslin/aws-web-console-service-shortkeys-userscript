@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This script is deprecated since the new AWS Management Console (Web) provides Alt-S to focus on search box quickly.
+
 # aws-web-console-service-shortkeys-userscript
 
 In AWS Management Console (Web), this userscript adds ability to use `/` shortcut expanding service menu, and `Esc` key to close it.
